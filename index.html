@@ -9,30 +9,31 @@
     <title>Application AFPA</title>
 </head>
 <body class="ma-class">
-     <main>
-        <img src="./assets/img/logo.png" alt="logo AFPA">
-        <h1 id="mon-id">Bienvene sur l'application AFPA !</h1>
+     <main class="bg-body-tertiary border border-dark m-auto mt-5 border-2 rounded-5 w-50  ">
+        <img  src="./assets/img/logo.png" class="mx-auto d-block rounded-5 mt-5 mb-5 w-25 " alt="logo AFPA">
+        <h1 id="mon-id" class=" fs-1 border border-black rounded-5 bg-success-subtle w-50 m-auto p-3">Bienvene sur l'application AFPA !</h1>
         
-            <fieldset class = "border mx-auto w-50">
-              <form class ="row-cols-2">
-                <legend class="float-none w-auto" >Accés à votre espace privé</legend>
-                <h2>vous avez déjà un compte ?</h2>
+            <fieldset class = "border mx-auto dysplay:block w-75 rounded-5 my-3 border border-success-subtle">
+              <legend class="float-none w-auto" >Accés à votre espace privé</legend>
+              <h2 class="ps-5 fs-3 mt-3">vous avez déjà un compte ?</h2>
+              <form class ="mt-4">
+               
                 <!--<h3>connectez-vous</h3>-->
-                <label class="form-label">Identifiant: <input class="form-control" type="text" id="email" placeholder="mail@exemple.fr"></label>
-                <label class="form-label">mot de passe<input class="form-control" type="password" id="motdepasse"></label>
+                <label class="form-label w-75 ps-5">Identifiant <input class="form-control" type="text" id="email" placeholder="mail@exemple.fr"></label>
+                <label class="form-label w-75 ps-5">mot de passe<input class="form-control" type="password" id="motdepasse"></label>
                 <button class="btn btn-primary" type="submit" >connecter</button>
-                <h2>dans le cas contraire, merci de vous inscrire</h2>
-                <h3>Inscription</h3>
-                <label class="form-label">Nom:<input class="form-control" type="text"i></label>
-                <label class="form-label">Prenom<input class="form-control" type="text"></label> 
-                <label class="form-label">Adresse e-mail<input class="form-control" type="text"></label> 
-                <label class="form-label">mot de passe<input class="form-control" type="password"></label>
-                <label class="form-label">confirmation mot de passe<input class="form-control" type="password"></label>
+                <h2 class="ps-5 mb-3 mt-3">dans le cas contraire, merci de vous inscrire</h2>
+                <h3 class="ps-5 mb-3">Inscription:</h3>
+                <label class="form-label w-75 ps-5">Nom<input class="form-control" type="text"i></label>
+                <label class="form-label w-75 ps-5">Prenom<input class="form-control" type="text"></label> 
+                <label class="form-label w-75 ps-5">Adresse e-mail<input class="form-control" type="text"></label> 
+                <label class="form-label w-75 ps-5">mot de passe<input class="form-control" type="password"></label>
+                <label class="form-label w-75 ps-5">confirmation mot de passe<input class="form-control" type="password"></label>
                 <button class="btn btn-primary" type="submit">Valider</button>
               </form>
               </fieldset>
         
-     </main>
+       </main>
 </body>
 
 </html>
